@@ -83,10 +83,10 @@ footer li {
   width: 600px;
 }
 
+
 .btn {
   text-align: center;
 }
-
 
 .left {
   float: left;
@@ -101,13 +101,10 @@ footer li {
 }
 
 .icon {
-  background-image: url();
-  background-repeat: no-repeat;
   height: 18px;
   width: 18px;
   opacity: .55;
 }
-
 
 #notif a {
   font-size: 12px;
@@ -121,7 +118,17 @@ footer li {
 }
 
 #avatar {
-    height: 32px;
-    width: 32px;
-    margin-top: -8px;
+  height: 32px;
+  width: 32px;
+  margin-top: -8px;
+}
+
+#mic {
+  height: 22.5px;
+  width: 15px;
+  z-index: 2;
+  float: right;
+  position: relative;
+  margin-top: -35px;
+  margin-right: 340px;
 }
