@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  padding: 9px;
+}
+
+a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+img#logo {
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 100px;
+}
+
+form {
+  padding: 20px;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  color: #757575;
+  background-color: #f2f2f2;
+  border: solid 1px #f2f2f2;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer ul {
+  padding: 3px;
+  background-color: #EEE;
+}
+
+footer li {
+  padding: 15px;
+}
+
+.main {
+  clear: both;
+  margin-top: 150px;
+}
+
+.box {
+  height: 20px;
+  width: 500px;
+}
+
+.btn {
+  text-align: center;
+}
+
+
+.left {
+  float: left;
+}
+
+.left li {
+  float: left;
+}
+
+.right li {
+  float: right;
+}
+
+.icon {
+  background-image: url();
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 18px;
+  opacity: .55;
+}
+
+
+#notif a {
+  font-size: 12px;
+  color: white;
+  background-color: #db4437;
+  border-radius: 50%;
+  line-height: 22px;
+  height: 22px;
+  width: 22px;
+  margin-top: -3px;
+}
+
+#avatar {
+    height: 32px;
+    width: 32px;
+    margin-top: -8px;
+}
